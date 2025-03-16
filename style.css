@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-image: url(IMAGES/header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.422);
+    position: relative;
+}
+.head img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.head h1{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+}
+.head p{
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+.section1{
+    display: flex;
+    gap: 2%;
+    /* justify-content: space-around; */
+    background-color: #333;
+    padding: 5%;
+}
+.dev-prof{
+    width: 60%;
+    height: 25vw;
+}
+.dev-prof h1{
+    color: white;
+    font-size: 3vw;
+
+}
+.dev-prof p{
+    color: white;
+    font-size: 1vw; 
+    line-height: 2;
+}
+.dev-prof a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #009245;
+    color: white;
+    font-size: 1vw;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 1vw;
+}
+.image-dev-prof{
+    width: 40%;
+    height: 25vw;
+    background-image: url(./IMAGES/devprof.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.section2{
+    width: 100%;
+    padding: 5%;
+    background-color: #333;
+}
+.section2 p{
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 2;
+}
+.section2 h1{
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    width: 30%;
+    /* border: 2px solid #ffffff; */
+    border-radius: 20px;
+    padding: 2%;
+}
+.cont h3{
+    color: white;
+    font-size: 1.8vw;
+    text-align: center;
+    background-color: #009245;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cont p{
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 2;
+}
+.section3{
+    width: 100%;
+    height: 30vw;
+    background-image: url(./IMAGES/front-view-motivation-notes-with-keyboard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section4{
+    width: 100%;
+    padding: 5%;
+    background-color: #333;
+}
+.section4 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.section4 h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.cont4{
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item4{
+    position: relative;
+    width: 30%;
+    height: 25vw;
+    background-image: url(./IMAGES/header.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+.item4 a{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.accordion {
+    width: 70%;
+    margin: auto;
+}
+
+.accordion-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; /* Ajoute un espace entre chaque élément */
+    overflow: hidden;
+}
+
+.accordion-header {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    background: #f9f9f9;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+    font-size: 20px;
+}
+
+.active .icon {
+    transform: rotate(180deg);
+    color: green;
+}
+
+.active .accordion-content {
+    max-height: 200px;
+    padding: 15px;
+}.section5{
+    width: 100%;
+    padding: 5%;
+    background-color: #333;
+}
+.section5 h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.section5 p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.cont5{
+    display: flex;
+justify-content: space-between;
+}
+.item5-image{
+    width: 40%;
+    height: 20vw;
+    background-color: aliceblue;
+}
+.item5-text{
+    width: 55%;
+    height: 20vw;
+    background-color: aliceblue;
+}
+.section6{
+    width: 100%;
+    padding: 5%;
+    background-color: #333;
+}
+.section6 h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.section6 p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.cont6{
+    display: flex;
+    justify-content: space-between;
+}
+.mike, .tina, .marie {
+    width: 30%;
+    height: 20vw;
+    border: 2px solid white;
+}
+.section7{
+    width: 100%;
+    padding: 5% 0%;
+    background-color: #333;
+}
+.section7 h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.section7 p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.sec7-1{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.lecture{
+    width: 60%;
+    height: 20vw;
+    border: 2px solid white;
+}
+.citation{
+    width: 40%;
+    height: 20vw;
+    border: 2px solid white;
+}
+.sec7-2{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.meditation{
+    width: 40%;
+    height: 20vw;
+    border: 2px solid white;
+}
+.travail{
+    width: 60%;
+    height: 20vw;
+    border: 2px solid white;
+}
+.section8{
+    padding: 5%;
+    background-color: #333;
+
+}
+.section8 h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+#name{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 3vw;
+    margin: 2%;
+    border: 2px solid white;
+    /* border-radius: 15px; */
+    padding: auto 20px;
+}
+#message{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 3vw;
+    margin: 2%;
+    border: 2px solid white;
+}
+.submit{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: auto;
+}
+
+
